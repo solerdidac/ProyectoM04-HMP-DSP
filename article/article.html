@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- swiper slider css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA==" crossorigin="anonymous" />
+
+    <!-- custom style.css file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <!-- Header -->
+       <header id="header" class="shadow bg-light">
+           <nav class="container navbar">
+               <a href="index.html" class="nav-brand text-dark">
+                Kom&Games
+                </a>
+
+                <!-- toggle button -->
+                <button class="toggle-button">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+
+                <!-- collapse on toggle button click -->
+                <div class="collapse">
+                    <ul class="navbar-nav">
+                        <a href="../index.html" class="nav-link">Home</a>
+                        <a href="article.html" class="nav-link">Articles</a>
+                        <a href="#about-article" class="nav-link">About</a>
+                    </ul>
+                </div>
+
+                  <!-- collapse on toggle button click -->
+                  <div class="collapse">
+                      <ul class="navbar-nav">
+                            <a href="https://www.facebook.com/?locale=es_ES" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/?lang=es" class="nav-link"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/" class="nav-link"><i class="fab fa-instagram"></i></a>
+                      </ul>
+                  </div>
+           </nav>
+       </header>
+    <!-- .Header -->
+
+    <!-- Main Site -->
+       <main id="site-main">
+
+            <!-- Post Content -->
+                <section class="container">
+                    <article id="post">
+                        <!-- article heading -->
+                        <div class="headings text-center">
+                            <div class="category">
+                                <a href="#" class="nav-link">VideoJuegos</a>
+                            </div>
+
+                            <div class="title">
+                                <h2 class="text-title text-dark display-1">¡GTA VI, esta a la vuelta de la esquina!</h2>
+                            </div>
+
+                            <div class="meta">
+                                <a class="link display-2 text-secondary px-1">
+                                    <i class="fas fa-user text-primary"></i> Hugo Martín, Dídac Soler
+                                </a>
+                                <a class="link display-2 text-secondary px-1">
+                                    <i class="fas fa-clock text-primary"></i>  Mar 19, 2023
+                                </a>
+                                <a href="#comments" class="link display-2 text-secondary px-1">
+                                    <i class="fas fa-comments text-primary"></i> 4
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- thumbnail  -->
+                        <div class="mt-3">
+                            <iframe width="560" height="300" src="https://www.youtube.com/embed/QdBZY2fkU-0?si=xbExaqEOGkj1MhkC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <!-- content -->
+                        <div class="content text-dark display-2 secondary-title mt-4">
+                            <p class="gta" id="noticias">Grand Theft Auto (GTA) es un juego de mundo abierto desarrollado por Rockstar Games. Ambientado en la ficticia ciudad de Los Santos, los jugadores asumen el papel de tres personajes involucrados en actividades criminales mientras exploran un extenso entorno urbano. </p>
+                        </div>
+                    </article>
+                        <div class="title">
+                            <h2 class="text-title text-dark display-1"><p class="gta">Otras Noticias</p></h2>
+                        </div>
+                        <div class="post-realted py-2">
+                            <div class="row justify-content-center">
+                                <div class="prev">
+                                    <article class="article text-center">
+                                        <div class="d-flex">
+                                            <a href="#">
+                                                <img src="./assets/img/article-m.png" class="object-fit" alt="">
+                                            </a>
+                                            <div class="cart-body px-1">
+                                                <div class="category">
+                                                    <a href="https://www.marca.com/motor/dakar/2024/01/07/6599a96d268e3e657b8b4585.html" class="link text-primary text-secondary">Diario Marca</a>
+                                                </div>
+                                                <div class="text-title display-1 text-dark">
+                                                    <p class="text-marca">Honda domina con Nacho Cornejo a la cabeza. Ross Branch mantiene el liderato, Joan Barreda mejora, pero Lorenzo Santolino abandona por una avería.</p>
+                                                </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="next text-right">
+                                    <article class="article text-center">
+                                        <div class="d-flex">
+                                            <div class="cart-body px-1">
+                                                <div class="category">
+                                                    <a href="https://fashionunited.es/noticias/moda/sabes-cuales-son-las-marcas-favoritas-de-la-generacion-z/2024010442289" class="link text-primary text-secondary">Fashion United</a>
+                                                </div>
+                                                <div class="text-title display-1 text-dark">
+                                                    <p class="text-marca">La Gen Z lidera el mercado de moda con preferencia por Nike, reflejando comodidad y expresión personal. Aunque hay signos de desaceleración del gasto, se observa un aumento en la compra de accesorios.</p>
+                                                </div>
+                                            </div>
+                                            <a href="#">
+                                                <img src="./assets/img/Fashion-United-logo.jpg" class="object-fit" alt="">
+                                            </a>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="post-comments py-2">
+                            <h3 class="text-center display-1 secondary-title py-2" id="comments">Comments</p></h3>
+                            <div class="comment-details">
+                                <div class="comment-item py-2">
+                                    <div class="d-flex">
+                                        <div class="avatar px-2">
+                                            <img src="./assets/face/face1.jpg" class="rounded" alt="">
+                                        </div>
+                                        <div class="comment-content">
+                                            <h5 class="display-2 m-0">Maria Marquez</h5>
+                                            <p class="title-secondary text-dark">
+                                                ¡GTA V es uno de los mejores juegos de la serie! La historia y los gráficos son increíbles.                                            </p>
+                                        </div>
+                                    </div>
+                                     <div class="reply py-2">
+                                        <div class="d-flex">
+                                            <div class="avatar px-2">
+                                                <img src="./assets/face/face2.jpg" class="rounded" alt="">
+                                            </div>
+                                            <div class="comment-content">
+                                                <h5 class="display-2 m-0">Martine Rose</h5>
+                                                <p class="title-secondary text-dark">
+                                                    Me encanta explorar Los Santos y hacer misiones. El mundo abierto es asombroso.                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="avatar px-2">
+                                            <img src="./assets/img/face-men1.avif" class="rounded" alt="">
+                                        </div>
+                                        <div class="comment-content">
+                                            <h5 class="display-2 m-0">Alexander Martínez</h5>
+                                            <p class="title-secondary text-dark">
+                                                Los detalles y la atención al realismo en el juego son impresionantes. ¡Rockstar hizo un trabajo increíble!                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="avatar px-2">
+                                            <img src="./assets/img/face-women.webp" class="rounded" alt="">
+                                        </div>
+                                        <div class="comment-content">
+                                            <h5 class="display-2 m-0">Alexa Gomez</h5>
+                                            <p class="title-secondary text-dark">
+                                                El modo multijugador (GTA Online) es adictivo. Siempre hay algo nuevo que hacer.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- .post footer -->
+
+                </section>
+            <!-- .Post Content -->
+       </main>
+    <!-- .Main Site -->
+
+    <!-- footer -->
+       <footer id="footer">
+           <div class="container">
+               <div class="row mb-3">
+                   <div class="col-3">
+                       <h2 class="footer-title secondary-title" id="about-article">About Us</h2>
+
+                       <div class="secondary-title text-secondary">
+                            <p class="mt-2 ">
+                                ¡Bienvenidos a Kom&Games! Somos un dúo apasionado de jugadores con sede en Barcelona. Aquí compartimos nuestras experiencias, opiniones y descubrimientos en el emocionante mundo de los videojuegos. Únete a nosotros para explorar juntos este universo lleno de diversión y desafíos.
+                            </p>
+                            
+                            <address>
+                                <i class="fas fa-map-marker-alt text-primary"></i> 
+                                Av. de Francesc Cambó, 12, EDIF;BAJO,
+                                Ciutat Vella, 08003 Barcelona
+                            </address>
+
+                            <div class="phone">
+                                <i class="fas fa-mobile text-primary"></i> 
+                                624666713
+                            </div>
+
+                            <div class="email">
+                                <i class="fas fa-envelope text-primary"></i> 
+                                didac&hugo@gmail.com
+                            </div>
+
+                       </div>
+                   </div>
+                   <div class="col-3">
+                       <h2 class="footer-title secondary-title">Feature Post</h2>
+
+                       <div class="feature-post">
+                           <div class="flex-item">
+                               <article class="article">
+                                   <div class="d-flex">
+                                       <a href="#">
+                                           <img src="./assets/img/noticia1.webp" class="object-fit px-1" alt="">
+                                           <div class="px-1">
+                                               <a href="https://www.20minutos.es/noticia/5206907/0/santiago-segura-revela-que-lleva-tiempo-con-insuficiencia-pancreatica-me-preocupa-que-no-encuentren-causa-problema/" class="text-title display-2 text-dark">
+                                                Santiago Segura revela que lleva tiempo "con insuficiencia pancreática": "Me preocupa que no encuentren la causa del problema"
+                                               </a>
+                                               <p class="secondary-title text-secondary display-3">
+                                                    <span><i class="far fa-clock text-primary"></i>Mar 26, 2023 </span>
+                                               </p>
+                                           </div>
+                                       </a>
+                                   </div>
+                               </article>
+                           </div>
+                           <div class="flex-item">
+                            <article class="article">
+                                <div class="d-flex">
+                                    <a href="#">
+                                        <img src="./assets/img/noticia2.webp" class="object-fit px-1" alt="">
+                                        <div class="px-1">
+                                            <a href="https://www.20minutos.es/noticia/5206886/0/ultimo-movimiento-genoveva-casanova-antes-coronacion-federico-dinamarca/" class="text-title display-2 text-dark">
+                                                El último movimiento de Genoveva Casanova antes de la coronación de Federico de Dinamarca
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                 <span><i class="far fa-clock text-primary"></i>Mie 27, 2023 </span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </article>
+                             </div>
+                             <div class="flex-item">
+                                <article class="article">
+                                    <div class="d-flex">
+                                        <a href="#">
+                                            <img src="./assets/img/noticia3.webp" class="object-fit px-1" alt="">
+                                            <div class="px-1">
+                                                <a href="https://www.20minutos.es/noticia/5206743/0/cinco-nuevos-pueblos-mas-bonitos-espana-2024/" class="text-title display-2 text-dark">
+                                                    Estos son los cinco nuevos Pueblos Más Bonitos de España que se añaden a la lista en 2024
+                                                </a>
+                                                <p class="secondary-title text-secondary display-3">
+                                                     <span><i class="far fa-clock text-primary"></i> Jue 04, 2024 </span>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                       </div>
+                   </div>
+                   <div class="col-3">
+                        <h2 class="footer-title secondary-title">Tags</h2>
+
+                        <div class="tags">
+                            <div class="d-flex flex-wrap">
+                                <a href="#noticias" class="nav-link btn bg-light">Diario</a>
+                                <a href="#noticias" class="nav-link btn bg-light">Fashion</a>
+                            </div>
+                        </div>
+
+                        <h2 class="footer-title secondary-title mt-2">Social</h2>
+
+                        <div class="tags social">
+                            <div class="d-flex flex-wrap">
+                                <a href="https://www.facebook.com/?locale=es_ES" class="nav-link btn bg-light"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/?lang=es" class="nav-link btn bg-light"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/" class="nav-link btn bg-light"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+
+                   </div>
+               </div>
+
+               <!-- copyrights  -->
+               <div class="copyrights">
+                   <p class="text-center text-secondary display-2">
+                        © 2024 <a href="#" class="text-primary">Kom&Games</a> - Videogames Blog Theme. All rights reserved.
+                   </p>
+               </div>
+           </div>
+       </footer>
+    <!-- .footer -->
+
+
+    <!-- masonry libray for horizontal grid -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous"></script>
+
+    <!-- swiper slider cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js" integrity="sha512-1LlEYE0qExJ/GUfAJ0k2K2fB5sIvMv/q6ueo3syohvQ3ElWDQVSMUOf39cxaDWHtNu7M6lF6ZC1H6A1m3SvheA==" crossorigin="anonymous"></script>
+
+    <!-- custom javascript main.js file -->
+    <script src="main.js"></script>
+</body>
+</html>
